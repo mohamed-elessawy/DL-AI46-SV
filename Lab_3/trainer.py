@@ -4,8 +4,10 @@ import torch.optim as optim
 import pandas as pd
 from sklearn.metrics import classification_report
 from tqdm import tqdm
-from utils import get_logger
-from models import SimpleMLP, CustomCNN, get_transfer_model
+
+# EL TA3DEEL HENA: 7atena Lab_3 abl el imports
+from Lab_3.utils import get_logger
+from Lab_3.models import SimpleMLP, CustomCNN, get_transfer_model
 
 logger = get_logger("Lab3_Trainer")
 
@@ -30,7 +32,6 @@ def train_loop(model, optimizer, criterion, train_loader, test_loader, epochs, p
         model.train()
         running_loss, correct, total = 0, 0, 0
 
-        # TQDM Loading bar for clean notebook output
         loop = tqdm(train_loader, total=len(train_loader), desc=f"{phase_name} Epoch {epoch+1}/{epochs}", leave=False)
         for images, labels in loop:
             images, labels = images.to(device), labels.to(device)
@@ -59,7 +60,6 @@ def train_loop(model, optimizer, criterion, train_loader, test_loader, epochs, p
     return train_losses, test_losses, test_acc
 
 def evaluate_best_model(model, test_loader, classes, device):
-    """Final Evaluation Matrix just like Lab 2"""
     model.eval()
     all_preds, all_lbls = [], []
     with torch.no_grad():

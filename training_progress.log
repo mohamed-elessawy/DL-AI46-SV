@@ -1,0 +1,34 @@
+2026-03-25 20:25:33,075 - INFO - 
+
+--- Phase 0: Sanity Check (Overfitting 1 Batch) ---
+2026-03-25 20:25:35,515 - INFO - Sanity Epoch 05/15 - Loss: 1.2917 - Acc: 0.5312
+2026-03-25 20:25:35,623 - INFO - Sanity Epoch 10/15 - Loss: 0.4955 - Acc: 0.8750
+2026-03-25 20:25:35,721 - INFO - Sanity Epoch 15/15 - Loss: 0.0541 - Acc: 1.0000
+2026-03-25 20:25:35,724 - INFO - Final Sanity Check Accuracy on 1 batch: 100.00%
+2026-03-25 20:26:01,285 - INFO - 
+
+--- Phase 2: Custom CNN (Golden Rules Architecture) ---
+2026-03-25 20:29:12,782 - INFO - 
+
+--- Phase 2: Custom CNN (Golden Rules Architecture) ---
+2026-03-25 20:30:17,517 - INFO - [Custom_CNN] Epoch 01/20 - Train Loss: 0.8847 - Train Acc: 0.6695 - Test Loss: 0.5653 - Test Acc: 0.8060
+2026-03-25 20:30:36,498 - INFO - [Custom_CNN] Epoch 02/20 - Train Loss: 0.5820 - Train Acc: 0.7924 - Test Loss: 0.5409 - Test Acc: 0.8110
+2026-03-25 20:30:55,103 - INFO - [Custom_CNN] Epoch 03/20 - Train Loss: 0.4818 - Train Acc: 0.8287 - Test Loss: 0.4997 - Test Acc: 0.8260
+2026-03-25 20:31:13,244 - INFO - [Custom_CNN] Epoch 04/20 - Train Loss: 0.4041 - Train Acc: 0.8538 - Test Loss: 0.4912 - Test Acc: 0.8440
+2026-03-25 20:31:31,733 - INFO - [Custom_CNN] Epoch 05/20 - Train Loss: 0.3498 - Train Acc: 0.8724 - Test Loss: 0.4872 - Test Acc: 0.8370
+2026-03-25 20:31:50,483 - INFO - [Custom_CNN] Epoch 06/20 - Train Loss: 0.3060 - Train Acc: 0.8881 - Test Loss: 0.5007 - Test Acc: 0.8507
+2026-03-25 20:32:09,132 - INFO - [Custom_CNN] Epoch 07/20 - Train Loss: 0.2624 - Train Acc: 0.9073 - Test Loss: 0.5098 - Test Acc: 0.8400
+2026-03-25 20:32:27,143 - INFO - [Custom_CNN] Epoch 08/20 - Train Loss: 0.2371 - Train Acc: 0.9171 - Test Loss: 0.5366 - Test Acc: 0.8327
+2026-03-25 20:32:45,307 - INFO - [Custom_CNN] Epoch 09/20 - Train Loss: 0.1944 - Train Acc: 0.9335 - Test Loss: 0.5738 - Test Acc: 0.8410
+2026-03-25 20:33:03,368 - INFO - [Custom_CNN] Epoch 10/20 - Train Loss: 0.1724 - Train Acc: 0.9405 - Test Loss: 0.5635 - Test Acc: 0.8517
+2026-03-25 20:33:21,197 - INFO - [Custom_CNN] Epoch 11/20 - Train Loss: 0.1532 - Train Acc: 0.9452 - Test Loss: 0.6264 - Test Acc: 0.8357
+2026-03-25 20:33:39,977 - INFO - [Custom_CNN] Epoch 12/20 - Train Loss: 0.1502 - Train Acc: 0.9477 - Test Loss: 0.5775 - Test Acc: 0.8407
+2026-03-25 20:33:58,049 - INFO - [Custom_CNN] Epoch 13/20 - Train Loss: 0.1416 - Train Acc: 0.9515 - Test Loss: 0.6181 - Test Acc: 0.8437
+2026-03-25 20:34:15,914 - INFO - [Custom_CNN] Epoch 14/20 - Train Loss: 0.1190 - Train Acc: 0.9578 - Test Loss: 0.6381 - Test Acc: 0.8453
+2026-03-25 20:34:34,421 - INFO - [Custom_CNN] Epoch 15/20 - Train Loss: 0.1143 - Train Acc: 0.9611 - Test Loss: 0.6716 - Test Acc: 0.8493
+2026-03-25 20:34:52,652 - INFO - [Custom_CNN] Epoch 16/20 - Train Loss: 0.1225 - Train Acc: 0.9575 - Test Loss: 0.7004 - Test Acc: 0.8333
+2026-03-25 20:35:10,704 - INFO - [Custom_CNN] Epoch 17/20 - Train Loss: 0.1115 - Train Acc: 0.9619 - Test Loss: 0.6950 - Test Acc: 0.8443
+2026-03-25 20:35:28,936 - INFO - [Custom_CNN] Epoch 18/20 - Train Loss: 0.1106 - Train Acc: 0.9623 - Test Loss: 0.7334 - Test Acc: 0.8380
+2026-03-25 20:35:46,983 - INFO - [Custom_CNN] Epoch 19/20 - Train Loss: 0.1107 - Train Acc: 0.9627 - Test Loss: 0.6664 - Test Acc: 0.8403
+2026-03-25 20:36:04,723 - INFO - [Custom_CNN] Epoch 20/20 - Train Loss: 0.1064 - Train Acc: 0.9642 - Test Loss: 0.7164 - Test Acc: 0.8240
+2026-03-25 20:44:56,828 - INFO - Visualizing Feature Maps for class: buildings
